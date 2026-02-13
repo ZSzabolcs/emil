@@ -1,4 +1,7 @@
 
+using emil.Services;
+using emil.Services.IMail;
+
 namespace emil
 {
     public class Program
@@ -6,7 +9,7 @@ namespace emil
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            builder.Services.AddScoped<ISendMail, GoogleMail>();
             // Add services to the container.
 
             builder.Services.AddControllers();
