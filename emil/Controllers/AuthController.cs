@@ -26,7 +26,7 @@ namespace emil.Controllers
                     issuer: _config["Jwt:Issuer"],
                     audience: _config["Jwt:Audience"],
                     claims: new[] { new Claim(ClaimTypes.Name, login.Username) },
-                    expires: DateTime.Now.AddHours(1),
+                    expires: DateTime.UtcNow.AddHours(1),
                     signingCredentials: creds
                 );
 

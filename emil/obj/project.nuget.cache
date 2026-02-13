@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lpqCRDCru8k=",
+  "dgSpecHash": "bb31FehH5Ec=",
   "success": true,
   "projectFilePath": "C:\\Users\\ZSzabolcs\\source\\repos\\emil\\emil\\emil.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\ZSzabolcs\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.24\\microsoft.entityframeworkcore.abstractions.8.0.24.nupkg.sha512",
     "C:\\Users\\ZSzabolcs\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.24\\microsoft.entityframeworkcore.analyzers.8.0.24.nupkg.sha512",
     "C:\\Users\\ZSzabolcs\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.24\\microsoft.entityframeworkcore.design.8.0.24.nupkg.sha512",
+    "C:\\Users\\ZSzabolcs\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.24\\microsoft.entityframeworkcore.inmemory.8.0.24.nupkg.sha512",
     "C:\\Users\\ZSzabolcs\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.24\\microsoft.entityframeworkcore.relational.8.0.24.nupkg.sha512",
     "C:\\Users\\ZSzabolcs\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.24\\microsoft.entityframeworkcore.sqlserver.8.0.24.nupkg.sha512",
     "C:\\Users\\ZSzabolcs\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.24\\microsoft.entityframeworkcore.tools.8.0.24.nupkg.sha512",
