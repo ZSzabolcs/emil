@@ -1,4 +1,5 @@
 ﻿using emil.Data;
+using emil.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -19,6 +20,19 @@ namespace emil.Controllers
         {
             _config = config;
             _context = context;
+        }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] User user)
+        {
+            if (await _context.Users.AnyAsync(u => u.Username == user.Username))
+            {
+                return BadRequest("Ez a felhasználónév már foglalt.");
+            }
+
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+            return Ok("Sikeres regisztráció!");
         }
 
         [HttpPost("login")]
