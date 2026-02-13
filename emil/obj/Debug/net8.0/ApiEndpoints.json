@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "emil.Controllers.SendMailController",
+    "Method": "SendMail",
+    "RelativePath": "api/SendMail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sendMailDTO",
+        "Type": "emil.Models.DTOs.SendMailDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

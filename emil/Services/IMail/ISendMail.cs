@@ -4,6 +4,6 @@ namespace emil.Services.IMail
 {
     public interface ISendMail
     {
-        void Send(SendMailDTO sendMailDTO);
+        Task SendAsync(SendMailDTO sendMailDTO);
     }
 }
